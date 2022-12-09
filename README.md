@@ -1,5 +1,4 @@
-This is my simple dashboard from NYC 2019 yellow taxi dataset from: https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019?resource=downlo
-ad or https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+This is my simple dashboard from NYC 2019 yellow taxi dataset from: https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019?resource=download
 
 ![alt text](https://github.com/fahmihamzah84/NYC_taxi_dashboard/blob/master/Dashboard.png?raw=true)
 
