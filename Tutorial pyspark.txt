@@ -1,0 +1,19 @@
+Prequisite for installing pyspark is:
+ - Java 8 
+ - Python 3
+* Don't forget to add the java &p python path in environment variables
+
+1. After you download and installed both of them, the next step is to Download Apache Spark.
+2. You can navigate here https://spark.apache.org/downloads.html and head over to Download Page
+3. Select the latest spark release and choose package 'Pre-built for Apache Hadoop 3.3 and later'
+4. Download the tgz file
+5. Make a folder named 'Spark' or whatever you wanna name it, then extract the downloaded file into that folder
+6. Go this page : https://github.com/steveloughran/winutils
+7. Select and download for your selected hadoop before
+8. Create a folder in C named winutils, and create a folder inside of it name it 'bin'. 
+9. Put the downloaded file into 'bin' folder
+10. We need to create environment variables for each hadoop and spark. Create a new environment where variable name as "hadoop_home" and variable value to be the location of winutils, which is "C:\winutils" and click "OK".
+11. For spark, the variable name is 'spark_home', and the variable value is the location of spark folder.
+12. After that click path variable and create a new path and paste this :
+    %Spark_Home%\bin
+13. You can check your installation by typing pyspark on your terminal
